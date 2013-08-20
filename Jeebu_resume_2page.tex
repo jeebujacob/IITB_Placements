@@ -65,8 +65,7 @@
 \setlength{\itemsep}{1pt}
    \item \textbf{{M.Tech. Project}}\\
         {\textbf{Guide} - Prof. Sachin. B. Patkar}
-\begin{enumerate}
- 
+
  \item \textbf{Hardware Accelerator for GF2 Matrix Multiplication }
 	Matrix Multiplication being a primitive in applications like cryptography are of prime importance in High Performance Computing. 
 	The dark silicon era of VLSI brings in a lot of bottlenecks for software only approaches of matrix multiplication. Hence power efficient
@@ -80,8 +79,6 @@
 
 
 
-\end{enumerate}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -93,12 +90,27 @@
 	would rotate, one in the clockwise and the other in the anti-clockwise direction. Once the object is tracked the angle swept by
 	the receivers would help trilaterate the exact location of the object, and would display the approximate location  on a LED matrix
 
-  \item \textbf{{M.Tech seminar: ``Study of Xilinx Embedded Development Kit''}}\\
-	{\textbf{Guide} - Prof. sachin. B Patkar \qquad\qquad\qquad\quad\qquad\qquad\qquad\quad\qquad\qquad\qquad\qquad\qquad\qquad\quad
-	(Nov-10)}
+  \item \textbf{{R\&D Project: Hardware-Software Co-system in FPGA}}\\
+	{\textbf{Guide} - Prof. Sachin. B. Patkar \qquad\qquad\qquad\quad\qquad\qquad\qquad\quad\qquad\qquad\qquad\qquad\qquad\qquad\quad}
+	Bluespec Implementation of Partial Basis Builder, Transpose block and Outer Accumulator for Solution of System of linear Equation,
+	and Implementation of a 32*32 bit matrix multiplication in EDK using the implemented blocks
+	
+  \item \textbf{{M.Tech seminar: Study of Xilinx Embedded Development Kit}}\\
+	{\textbf{Guide} - Prof. Sachin. B. Patkar \qquad\qquad\qquad\quad\qquad\qquad\qquad\quad\qquad\qquad\qquad\qquad\qquad\qquad\quad}
 	Xilinx Embedded Development Kit contains a separate hardware(XPS) and software(SDK) environments each. As an  of a Sparse Matrix-Vector Multiplier
 
  \end{itemize}
+
+%%%%%%%%%%___RELEVANT COURSES___%%%%%%%%%%%
+ \colorbox{titleColor}{\parbox{6.5in}{\textbf{RELEVANT COURSES}}}\\
+ 
+ \begin{tabular}{p{2in}p{2in}p{2.5in}}
+%$\circ$ Digital VLSI Design &$\circ$ CMOS Analog VLSI Design &$\circ$ Mixed Signal VLSI Design\\
+
+$\circ$ CMOS Analog VLSI Design &$\circ$ Mixed Signal VLSI Design &$\circ$ Digital VLSI Design\\
+$\circ$ VLSI Design LAB &$\circ$ System Design &$\circ$ Microelectronics Simulation Lab\\
+$\circ$Foundations of VLSI CAD  &$\circ$ VLSI Technology &$\circ$ Solid State Devices
+\end{tabular}\\
 
 %%%%%%%%%%___RELEVANT COURSES___%%%%%%%%%%%
  \colorbox{titleColor}{\parbox{6.5in}{\textbf{RELEVANT COURSES}}}\\
@@ -118,33 +130,46 @@ $\circ$Foundations of VLSI CAD  &$\circ$ VLSI Technology &$\circ$ Solid State De
   \setlength{\itemsep}{1pt}
 
   \item \textbf{{Implementation of MIPS Architecture}} \textit{(Course: System Design)}\\
-	Single cycle implementation of MIPS architecture using 32 bit datapath and Multicycle implementation using 8 bit datapath were designed.
-	Seventeen 32 bit wide instructions were implemented including R-type,I-type and J-type instructions.
-
-  \item \textbf{{Design \& Simulation of 8-bit R-2R DAC}}   \textit{(Course: Mixed Signal VLSI Design)}\\
-	An 8-bit R-2R DAC was designed in UMC 180nm CMOS technology achieving the worst case absolute value of DNL/INL less than
-	$\frac{1}{2}$LSB for given mismatch and variation. Simulation of DNL/INL was carried out for different input codes using Cadence-Virtuoso.
+	Single cycle implementation of MIPS architecture using 32 bit datapath and Multicycle implementation using 8 bit datapath
+	were designed.	Seventeen 32 bit wide instructions were implemented including R-type,I-type and J-type instructions.
+   
 
   \item \textbf{{Design and write synthesizable descriptions of Data processor for 8085 in VHDL}}\\ \textit{(Course: VLSI Design Lab)}\\
 	The data processor  implements ALU and performs  all data movement and ALU operations.
 	This includes PUSH and POP operations involving the stack processor. The design was coded in
 	VHDL and synthesized successfully.
+	
   \item \textbf{{Design and write synthesizable descriptions of Instruction processor for 8085 in Verilog}}\\ \textit{(Course: VLSI Design Lab)}\\
 	his is an FSM which fetches the next instruction from an address given by the contents of the 16 bit register ‘PC’, 
 	and stores it in the instruction register. This circuit will also execute all instructions which update ‘PC’.
 	The design was coded in verilog and synthesized successfully.
-
 
   \item \textbf{{Design \& Layout of an 3-8 decoder}}   \textit{(Course: Digital VLSI Design)}\\
 	A 3-8 decoder with defined total electrical effort was designed in NGSPICE using CMOS logic. Design included forks with
 	best possible combinations of inverters to achieve equal delay. Decoder was laid out in Magic and post layout
 	simulation results were compared with calculations.
 
-  \item \textbf{{Design of Delay Locked Loop}} \textit{(Course: Microelectronics Simulation Lab)}\\
-	A DLL was designed for multiphase clock generation in NGSPICE. A charge pump charges or discharges a capacitor based
-	upon phase difference detected by a phase detector. The self-adjusting control voltage on capacitor was given to the delay lines,
-	using which 4 clocks were generated each with phase difference of 90\textdegree.
-
+  \item \textbf{{Graph Bipartitioning}} \textit{(Course: Foundations of VLSI CAD)}\\
+	Implemented three algorithms for Graph Bipartitioning namely Fiduccia-Mattheyses, Kernighan-Lin Algorithm, and Spectral bisection
+	in python.
+	
+  \item \textbf{{8-point FFT Implementation in Bluespec}} \textit{(Course: Foundations of VLSI CAD)}\\
+	Multicycle Implementation of 3 stage pipelined 8-point FFT module was done in Bluespec System Verilog(BSV) and the results
+	were verified with the a test function.
+	
+   \item \textbf{{Design a Gm-C low-pass biquad filter}} \textit{(Course: Mixed Signal VLSI)}\\
+ 	Gm-C low pass biquad filter which is second order chebyshev filter with maximum passband ripple of 0.5 dB and corner frequency
+ 	of 100Mhz was designed in UMC 180nm technology. Noise figure less than 20 dB was achieved at the corner frequency. 
+   
+   \item \textbf{{Design and simulation of switched capacitor filter}} \textit{(Course: Mixed Signal VLSI)}\\
+ 	A switched capacitor filter with maximum passband attenuation of 1dB at passband corner frequency (20 Khz) and minimum attenuation
+ 	of 20dB at stopband corner frequency (40KHz) was designed in UMC 180nm technology. Sampling frequency of 220 Khz for switched capacitor was used. 
+	
+	
+   \item \textbf{{Design \& Simulation of 8-bit current steering DAC}}   \textit{(Course: Mixed Signal VLSI Design)}\\
+    An 8-bit R-2R DAC was designed in UMC 180nm CMOS technology achieving the worst case absolute value of DNL/INL less than
+    $\frac{1}{2}$LSB for given mismatch and variation. Simulation of DNL/INL was carried out for different input codes using Cadence-Virtuoso.
+	
   
  \end{itemize}
 
