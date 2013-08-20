@@ -1,0 +1,180 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{anysize}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=0.75in, right=0.75in, top=0.75in, bottom=0.75in, includefoot, headheight=13.6pt]{geometry}
+\usepackage{color,graphicx}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{stmaryrd}
+\usepackage{multirow}
+\usepackage{textcomp}
+
+\usepackage{verbatim} 
+
+
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat's bookmarks
+    pdftoolbar=true,        % show Acrobat's toolbar?
+    pdfmenubar=true,        % show Acrobat's menu?
+    pdffitwindow=true,      % page fit to window when opened
+    pdftitle={CV - Jeebu Jacob Thomas (Digital)},    % title
+    pdfauthor={Jeebu Jacob Thomas},     % author
+    pdfsubject={Resume},   % subject of the document
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=magenta,        % color of internal links
+    citecolor=blue,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+
+\definecolor{titleColor}{rgb}{0.85, 0.85, 0.85}
+
+\begin{document}
+{\qquad \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\}
+%{1 \\2 \\3 \\4 \\5 \\6 \\7 \\8\\ 9\\ }
+
+% \newpage
+%%%%%%%%%%___AREA OF INTEREST____%%%%%%%%
+ \colorbox{titleColor}{\parbox{6.5in}{\textbf{AREAS OF INTEREST}}}
+
+ \begin{itemize}
+  \setlength{\itemsep}{1pt}
+
+  \item {{  Digital VLSI Design, Processor Design, Hardware design using HDL}}
+ \end{itemize}
+
+%%%%%%%%%%___TECHNICAL SKILLS____%%%%%%%%
+ \colorbox{titleColor}{\parbox{6.5in}{\textbf{TECHNICAL SKILLS}}}
+
+ \begin{itemize}
+  \setlength{\itemsep}{1pt}
+
+  \item \textbf{{Tools / Softwares:}} Cadence-Virtuoso, Xilinx-ISE, ModelSim, NGSPICE, Magic, MATLAB, Keil, Altera Quartus, Labview, Xilinx Chipscope, Xilinx EDK, Microsoft Visual Studio, Git.
+
+  \item \textbf{{Programming Languages:}} VHDL, Verilog, Assembly Language (8085/8051), C/C++, Python, Bluespec System Verilog .
+ \end{itemize}
+
+%%%%%%%%%%% ____PROJECTS___ %%%%%%%%%%%
+ \colorbox{titleColor}{\parbox{6.5in}{\textbf{PROJECTS / SEMINAR}}}
+
+ \begin{itemize}
+
+\setlength{\itemsep}{1pt}
+   \item \textbf{{M.Tech. Project}}\\
+        {\textbf{Guide} - Prof. Sachin. B. Patkar}
+\begin{enumerate}
+ 
+ \item \textbf{Hardware Accelerator for GF2 Matrix Multiplication }
+	Matrix Multiplication being a primitive in applications like cryptography are of prime importance in High Performance Computing. 
+	The dark silicon era of VLSI brings in a lot of bottlenecks for software only approaches of matrix multiplication. Hence power efficient
+	FPGA based hardware accelerators become an important choice for the cause. The project is to study about different FPGA based cosystems to implement
+	an efficient matrix multiplication in GF(2). 
+	
+
+ \textbf{\textit{Completed Work:}} 
+   32 bit and 64 bit GF2 Matrix Multiplication has been implemented using SIRC(Software Interface for Reconfigurable Computing), a Microsoft based Interface framework
+   for hardware-software cosystem, and the results have been compared against the existing software library M4RI. 
+
+
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+  \item \textbf{{B.E. Project: Infrared Tracking System using 8051}}  \qquad\qquad\qquad\qquad\qquad\quad \textbf{Software Used}: Keil\\
+        {\textbf{Guide} - Asst Prof. Jyothish Chandran, Saintgits College of Engineering, Kottayam.\qquad\qquad\qquad\quad\qquad\qquad\qquad\quad\qquad\qquad\qquad\quad(July-09--May-10)} 
+                                                         
+	The Infrared tracking system developed is used for tracking slowly moving objects. An IR transmitter mounted on top of the 
+	object to be tracked would transmit the signals in all possible directions. Two receivers , each mounted on top of stepper motors
+	would rotate, one in the clockwise and the other in the anti-clockwise direction. Once the object is tracked the angle swept by
+	the receivers would help trilaterate the exact location of the object, and would display the approximate location  on a LED matrix
+
+  \item \textbf{{M.Tech seminar: ``Study of Xilinx Embedded Development Kit''}}\\
+	{\textbf{Guide} - Prof. sachin. B Patkar \qquad\qquad\qquad\quad\qquad\qquad\qquad\quad\qquad\qquad\qquad\qquad\qquad\qquad\quad
+	(Nov-10)}
+	Xilinx Embedded Development Kit contains a separate hardware(XPS) and software(SDK) environments each. As an  of a Sparse Matrix-Vector Multiplier
+
+ \end{itemize}
+
+%%%%%%%%%%___RELEVANT COURSES___%%%%%%%%%%%
+ \colorbox{titleColor}{\parbox{6.5in}{\textbf{RELEVANT COURSES}}}\\
+ 
+ \begin{tabular}{p{2in}p{2in}p{2.5in}}
+%$\circ$ Digital VLSI Design &$\circ$ CMOS Analog VLSI Design &$\circ$ Mixed Signal VLSI Design\\
+
+$\circ$ CMOS Analog VLSI Design &$\circ$ Mixed Signal VLSI Design &$\circ$ Digital VLSI Design\\
+$\circ$ VLSI Design LAB &$\circ$ System Design &$\circ$ Microelectronics Simulation Lab\\
+$\circ$Foundations of VLSI CAD  &$\circ$ VLSI Technology &$\circ$ Solid State Devices
+\end{tabular}\\
+
+ %%%%%%%%%%___COURSE PROJ / SEMINAR___%%%%%%%%%%%
+ \colorbox{titleColor}{\parbox{6.5in}{\textbf{RELEVANT COURSE PROJECTS}}}
+
+ \begin{itemize}
+  \setlength{\itemsep}{1pt}
+
+  \item \textbf{{Implementation of MIPS Architecture}} \textit{(Course: System Design)}\\
+	Single cycle implementation of MIPS architecture using 32 bit datapath and Multicycle implementation using 8 bit datapath were designed.
+	Seventeen 32 bit wide instructions were implemented including R-type,I-type and J-type instructions.
+
+  \item \textbf{{Design \& Simulation of 8-bit R-2R DAC}}   \textit{(Course: Mixed Signal VLSI Design)}\\
+	An 8-bit R-2R DAC was designed in UMC 180nm CMOS technology achieving the worst case absolute value of DNL/INL less than
+	$\frac{1}{2}$LSB for given mismatch and variation. Simulation of DNL/INL was carried out for different input codes using Cadence-Virtuoso.
+
+  \item \textbf{{Design and write synthesizable descriptions of Data processor for 8085 in VHDL}}\\ \textit{(Course: VLSI Design Lab)}\\
+	The data processor  implements ALU and performs  all data movement and ALU operations.
+	This includes PUSH and POP operations involving the stack processor. The design was coded in
+	VHDL and synthesized successfully.
+  \item \textbf{{Design and write synthesizable descriptions of Instruction processor for 8085 in Verilog}}\\ \textit{(Course: VLSI Design Lab)}\\
+	his is an FSM which fetches the next instruction from an address given by the contents of the 16 bit register ‘PC’, 
+	and stores it in the instruction register. This circuit will also execute all instructions which update ‘PC’.
+	The design was coded in verilog and synthesized successfully.
+
+
+  \item \textbf{{Design \& Layout of an 3-8 decoder}}   \textit{(Course: Digital VLSI Design)}\\
+	A 3-8 decoder with defined total electrical effort was designed in NGSPICE using CMOS logic. Design included forks with
+	best possible combinations of inverters to achieve equal delay. Decoder was laid out in Magic and post layout
+	simulation results were compared with calculations.
+
+  \item \textbf{{Design of Delay Locked Loop}} \textit{(Course: Microelectronics Simulation Lab)}\\
+	A DLL was designed for multiphase clock generation in NGSPICE. A charge pump charges or discharges a capacitor based
+	upon phase difference detected by a phase detector. The self-adjusting control voltage on capacitor was given to the delay lines,
+	using which 4 clocks were generated each with phase difference of 90\textdegree.
+
+  
+ \end{itemize}
+
+%%%%%%%%%%___AWARDS AND ACHIEVEMENTS____%%%%%%%%
+ \colorbox{titleColor}{\parbox{6.5in}{\textbf{AWARDS AND ACHIEVEMENTS}}}
+
+ \begin{itemize}
+ 
+  \item \textbf{{Technical:}}
+
+  $\circ$ Secured  \textbf{All India Rank 176} with percentile of 99.83 among 1,04,291 candidates in GATE-2010 in Electronics and Communication\\
+  $\circ$ Distinguished performance in competitive exams like \textbf{NSEP-2005}(Top 10\%), \textbf{MTS state level scholarship} and District level \textbf{Government scholarships}.
+ 
+  \item \textbf{{Extra curricular:}}\\
+  $\circ$ 1st position in PG Kho-Kho, participated from Electrical Department in 2011-12\\
+  $\circ$ 1st position in Firodiya Karandak 2009, an intercollegiate multi-talent drama competition at Pune\\
+  $\circ$ 3rd position in Purushottam Karandak 2009, an intercollegiate drama competition at Pune\\
+  $\circ$ 2nd Position in silent movie making competition in Mood Indigo 2008 at IIT Bombay 
+  
+  
+
+
+ \end{itemize}
+
+ %%%%%%%%%%___HOBBY___%%%%%%%%%%%
+ \colorbox{titleColor}{\parbox{6.5in}{\textbf{HOBBY}}}
+
+ \begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \item Kirigami (A paper art form), Badminton, Reading novels
+ \end{itemize}
+
+\end{document}
